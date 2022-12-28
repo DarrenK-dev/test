@@ -2,6 +2,7 @@ public/
 
 
 terraform.tfstate
+plan
 
 # Local .terraform directories
 **/.terraform/*

@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "http://darrenk.dev.staging.s3-website-us-east-1.amazonaws.com/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod

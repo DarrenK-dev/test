@@ -1,5 +1,9 @@
 public/
 
+# tutorials key-pair
+tutorials.pem
+*.pem
+
 
 terraform.tfstate
 plan

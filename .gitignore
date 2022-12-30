@@ -6,6 +6,7 @@ tutorials.pem
 
 
 terraform.tfstate
+terraform.tfstate.backup
 plan
 
 # Local .terraform directories
@@ -42,3 +43,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+.terraform/

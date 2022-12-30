@@ -1,5 +1,6 @@
 ---
-title: "Aws Alb Asg"
+title: "Highly available Nginx using Auto
+Scaling Group, Load Balancer and Terraform on AWS"
 date: 2022-12-29T20:46:41Z
 draft: false
 
@@ -38,3 +39,8 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+In this tutorial we will be using terraform to build out our infrastructure on aws.
+
+The goal of this tutorials is to provision a highly available application (simple nginx website) distributed across two availability zones on aws. The website will be hosted on amazon linux 2 ec2 instances and will be provisioned using a launch configuration and auto scaling group. For our clients to access the application we will provision an application load balancer to distribute the traffic in a 'round-robin' approach to one of the running instances, this will offer good availability if one instance becomes inactive or we loose access to an availability zone. This tutorial is a good starting point to cover auto scaling groups, load balancers and basic launch configurations. The application is simple by design as the concepts covered in this tutorial are my focus.
+
+---

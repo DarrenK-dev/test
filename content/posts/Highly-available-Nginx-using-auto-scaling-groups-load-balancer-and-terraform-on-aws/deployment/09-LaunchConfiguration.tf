@@ -7,7 +7,6 @@ resource "aws_launch_configuration" "lc" {
   #!/bin/bash
   sudo yum update -y
   sudo amazon-linux-extras install nginx1 -y 
-  echo "<h2>First Nginx instance</h2>" > /var/www/html/index.html
   sudo systemctl enable nginx
   sudo systemctl start nginx
   EOF

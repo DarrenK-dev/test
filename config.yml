@@ -1,5 +1,5 @@
 baseURL: "http://darrenk.dev.staging.s3-website-us-east-1.amazonaws.com/"
-title: ExampleSite
+title: darrenk.dev
 paginate: 5
 theme: PaperMod
 
@@ -32,7 +32,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -55,8 +55,8 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    # icon: /images/house-white.svg
+    # iconHeight: 18
 
   # profile-mode
   profileMode:
@@ -76,15 +76,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog - this is in beta phase and I'm still testing a few things out.
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/DarrenK_dev"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/DarrenK-dev"
 
   analytics:
     google:

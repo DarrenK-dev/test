@@ -2,25 +2,21 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
-provider "aws" {
-  region = "eu-west-2"
-}
-
 variable "vpc_cidr" {
-  type    = string
-  default = "10.0.0.0/16"
+  type        = string
+  default     = "10.0.0.0/16"
   description = "This is the cidr_block for our VPC we will provision."
 }
 
 variable "public_subnet_1_cidr" {
-  type    = string
-  default = "10.0.1.0/24"
+  type        = string
+  default     = "10.0.1.0/24"
   description = "This is the cidr_block for the first public subnet we will provision"
 }
 
 variable "public_subnet_2_cidr" {
-  type    = string
-  default = "10.0.2.0/24"
+  type        = string
+  default     = "10.0.2.0/24"
   description = "This is the cidr_block for the second public subnet we will provision"
 }
 
@@ -45,5 +41,5 @@ variable "instance-type" {
 variable "Name-Tag" {
   type        = string
   default     = "darrenk.dev tutorial"
-  description = "The Tage with the key of `Name` value. This will hepl identify resources provisioned from this IaC terraform tutorial viewed through the AWS management console."
+  description = "The Tag with the key of `Name` value. This will hepl identify resources provisioned from this IaC terraform tutorial viewed through the AWS management console."
 }
